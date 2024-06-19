@@ -29,7 +29,7 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#experience" class="menu-btn">Experience</a></li>
-                <!-- <li><a href="#contact" class="menu-btn">Contact</a></li> -->
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -292,27 +292,27 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form>
+                    <form action="https://formsubmit.co/ginellearaneta27@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
                                 <p>Name</p>
-                                <input type="text" placeholder="Enter your name" required>
+                                <input type="text" name="name" placeholder="Enter your name" required>
                             </div>
                             <div class="field email">
                                 <p>Email</p>
-                                <input type="email" placeholder="Enter your email" required>
+                                <input type="email" name="email" placeholder="Enter your email" required>
                             </div>
                         </div>
                         <div class="field">
                             <p>Subject</p>
-                            <input type="text" placeholder="Enter a subject" required>
+                            <input type="text" name="_subject" placeholder="Enter a subject" required>
                         </div>
                         <div class="field textarea">
                             <p>Message</p>
-                            <textarea cols="30" rows="10" placeholder="Share your thoughts with me.." required></textarea>
+                            <textarea cols="30" rows="10" name="meesage" placeholder="Share your thoughts with me.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button onsubmit="sendEmail(); reset(); return true;">Send message</button>
+                            <button type="submit">Send message</button>
                         </div>
                     </form>
                 </div>

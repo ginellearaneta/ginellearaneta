@@ -629,9 +629,10 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: #fff;
+    background: url("Images/black.png") no-repeat center;
+    /* background: #000000; */
     padding: 15px 23px;
-    color: #111;
+    color: #ffffff;
     text-align: center;
     font-size: 15px;
 }
